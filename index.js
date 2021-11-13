@@ -2,7 +2,7 @@
 const fs = require("fs").promises;
 const path = require("path");
 const yargs = require("yargs/yargs")(process.argv.slice(2));
-require("dotenv").config();
+require("dotenv").config({ path: require("find-config")(".env") });
 const colors = require("colors");
 const argv = yargs
   .option("folder", {
