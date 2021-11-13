@@ -42,7 +42,7 @@ async function copyTemplateFiles(templateName, destPath) {
     const newDirPath = path.join(destPath, argv.name);
     await fs.mkdir(newDirPath, { recursive: true });
 
-    const templateDir = path.join("./templates", templateName);
+    const templateDir = path.join(__dirname, "templates", templateName);
     const templateFiles = await fs.readdir(templateDir);
     templateFiles.forEach(
       async (templateFile) =>
