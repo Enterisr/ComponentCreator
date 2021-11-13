@@ -1,6 +1,6 @@
 {
   "name": "@drunktolstoy/componentcreator",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Generates react component with js file and scss file",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,9 @@
   },
   "author": "drunktolstoy",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "yargs": "^17.2.1"
+  }
 }

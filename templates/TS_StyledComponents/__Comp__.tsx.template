@@ -1,0 +1,9 @@
+import React, { MouseEventHandler } from "react";
+import { Styled__Comp__ } from "./__Comp__.style.js";
+
+interface Iprops {}
+function __Comp__(props: Iprops) {
+  return <Styled__Comp__>__Comp__</Styled__Comp__>;
+}
+
+export default __Comp__;

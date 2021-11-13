@@ -1,0 +1,13 @@
+import React, { useState } from "react";
+import PropTypes from "prop-types";
+
+import styles from "./__Comp__.module.scss";
+function __Comp__(props) {
+  return (
+    <>
+      <div>__Comp__</div>
+    </>
+  );
+}
+export default __Comp__;
+__Comp__.propTypes = {};
