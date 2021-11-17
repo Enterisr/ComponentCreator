@@ -4,7 +4,7 @@ const path = require("path");
 const yargs = require("yargs/yargs")(process.argv.slice(2));
 require("dotenv").config({ path: require("find-config")(".env") });
 const colors = require("colors");
-require("./polifills.js");
+require("./polyfills");
 const argv = yargs
   .option("folder", {
     default: "./",
