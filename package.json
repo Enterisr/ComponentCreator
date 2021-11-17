@@ -1,6 +1,6 @@
 {
   "name": "@drunktolstoy/componentcreator",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "Generates react component with js file and scss file",
   "main": "index.js",
   "scripts": {
